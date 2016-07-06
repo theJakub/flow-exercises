@@ -55,7 +55,7 @@
             score = 500;
         }
         //2
-        if(crying == true){
+        if(crying){
             score=score-300;
         }else{
             score=score+50;
@@ -71,7 +71,7 @@
             }
         }
         /* Number 4 in a different way
-        if(typeof(last_play)!="number" && is_in_tree==true){
+        if(typeof(last_play)!="number" && is_in_tree){
             score=score+395;
         } */
 
@@ -85,7 +85,7 @@
         }
 
         //6
-        if(crying==false&&is_in_tree==false&&has_ball==true){
+        if(crying==false&&is_in_tree==false&&has_ball){
             score=score*1.5;
         }
 
